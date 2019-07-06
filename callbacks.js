@@ -56,16 +56,16 @@ multiplyNums(10, 2, function(multiplyNums) {
 function contains(item, list, cb) {
   cb(list.forEach(function(element) {
     if(item === element) {
-      return true;
+      console.log('True');
     }
     else {
-      return false;
+      console.log('False');
     }
   }))
 };
 
 contains('Gum', items, function(contains) {
-  console.log(contains);
+  contains;
 });
 
 /* STRETCH PROBLEM */
